@@ -1,0 +1,11 @@
+Package: multisc
+Type: Package
+Title: Sample-level pseudotime analysis for multi-sample scRNA-seq data
+Version: 0.1.0
+Author: Runzhe Li
+Maintainer: Runzhe Li <lrz14.thu@gmail.com>
+Description: multisc is a comprehensive software designed for sample-level pseudotime analysis based on multi-sample scRNA-seq data.  
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
