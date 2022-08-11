@@ -20,6 +20,8 @@ You can install the development version of multisc like so:
 devtools::install_github("stephlee3/multisc")
 ```
 
+
+
 ## Example
 
 Here we show two examples to run MultiSC.
@@ -28,10 +30,11 @@ Here we show two examples to run MultiSC.
 
 ``` r
 library(multisc)
-raw_count = readRDS("./data/raw_count.rds")
-sample_meta = readRDS("./data/sample_meta.rds")
-cell_meta = readRDS("./data/cell_meta.rds")
-leaves_info = readRDS("./data/leaves_info.rds")
+data("example_data")
+raw_count = example_data$raw_count
+sample_meta = example_data$sample_meta
+cell_meta = example_data$cell_meta
+leaves_info = example_data$leaves_info
 batch = sample_meta$batch; names(batch) = sample_meta$sample
 ```
 
